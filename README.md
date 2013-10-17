@@ -11,7 +11,7 @@ Data Manager is written entirely in JavaScript:
   * Communication between client and server is done via websockets using the Socket.IO library
   * JSON objects are used as communication medium
   * Code is intended to be as non-blocking/asynchronous as possible
-  * Use of JavaScript libraries is avoided
+  * Use of JavaScript libraries is avoided (mostly as a learning experience)
 
 Overview of features:
   * Provides users with some database/programming knowledge the framework to rapidly create data driven web applications
