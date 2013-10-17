@@ -22,3 +22,5 @@ Overview of features:
   * Multi-level security model allowing users to control read/write access to the data
 
 The initial target for this application is the Chrome browser and Chrome Packaged App.
+
+Please refer to the "Coding Conventions" file in this repository for additional details about this project. 
