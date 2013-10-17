@@ -1,0 +1,17 @@
+Data Manager - Project Road Map
+
+The project plan consists of 2 major functional groups consisting of a number of component features:
+  * Client-Side
+    - Application initialization
+    - App boot
+    - Template designer
+    - Data retrieval
+    - Data insert/update/delete
+    - Data synchronization
+  * Server-Side
+    - Database initialization
+    - Data retrieval
+    - Data insert/update/delete
+    - Data synchronization
+  
+Each of these functional groups can be developed independently to some extent 
