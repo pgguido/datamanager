@@ -6,7 +6,7 @@ Graphic User Interface for Data Operations (GUIDO) is a browser based data manag
 GUIDO is written entirely in JavaScript:
   * NodeJS used on server
   * Server side-storage will initially be supported in MongoDB, but may add support for other dbs
-  * Communication between client and server is done via websockets using the Socket.IO library
+  * Communication between client and server is done via websockets using the node ws module
   * JSON objects are used as communication medium
   * Code is intended to be as non-blocking/asynchronous as possible
   * Use of JavaScript libraries is avoided (mostly as a learning experience)
