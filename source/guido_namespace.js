@@ -1,0 +1,17 @@
+// guido_namespace.js - 2/21/2021 - Pauo Guido
+// The guido_namespace.js module creates a global object (namespace) to which all guido components are attached.
+
+try {
+    var guido = {
+	functions : {},
+	sessions : {}
+    }
+} catch (e) {
+    console.log('guido_namespace.js - unable to create guido namespace');
+}
+
+try {
+    exports.guido = guido;
+} catch (e) {
+    console.log('guido_namespace.js - unable to export guido namespace');
+}
